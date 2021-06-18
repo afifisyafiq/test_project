@@ -5,7 +5,7 @@
   -->
 
 <h1 id="title" class="title">Login</h1>
-<p class="sub-title">Hello! Please log in with your email.</p>
+<p class="sub-title">Hi! Please log in with your email.</p>
 
 <nb-alert *ngIf="showMessages.error && errors?.length && !submitted" outline="danger" role="alert">
   <p class="alert-title"><b>Oh snap!</b></p>
@@ -15,7 +15,7 @@
 </nb-alert>
 
 <nb-alert *ngIf="showMessages.success && messages?.length && !submitted" outline="success" role="alert">
-  <p class="alert-title"><b>Hooray!</b></p>
+  <p class="alert-title"><b>Hooray!!!</b></p>
   <ul class="alert-message-list">
     <li *ngFor="let message of messages" class="alert-message">{{ message }}</li>
   </ul>
