@@ -17,11 +17,7 @@ import { NbThemeService } from '@nebular/theme';
 import { EMAIL_PATTERN } from '../constants';
 import { InitUserService } from '../../../@theme/services/init-user.service';
 
-@Component({
-  selector: 'ngx-login',
-  templateUrl: './login.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
-})
+
 
 export class NgxLoginComponent implements OnInit {
 
